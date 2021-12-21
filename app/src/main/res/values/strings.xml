@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Healthily</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Logout">Logout</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="Delete_Account">Delete Account</string>
+    <string name="Change_Lanquage">Change Lanquage</string>
+    <string name="Change_Theme">Change Theme</string>
+    <string name="Share">Share</string>
+    <string name="Communicate">Communicate</string>
+    <string name="Settings">Settings</string>
+    <string name="Profile">Profile</string>
+    <string name="menu_logout">Logout</string>
+    <string name="Diagnoses">Diagnoses</string>
+    <string name="Prescriptions">Prescriptions</string>
+    <string name="Appointment">Appointment</string>
+    <string name="menu_changepassword">Change Password</string>
+    <string name="menu_deleteaccount">Delete Account</string>
+    <string name="menu_changelanguage">Change Language</string>
+    <string name="menu_changetheme">Change Theme</string>
+
+    <string name="schedule">Schedule</string>
+    <string name="Welcome">Welcome</string>
+    <string name="AMKA">AMKA</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="Next_Appointment">Next Appointment</string>
+    <string name="BASE_URL">http://192.168.1.77:3000/</string>
+    <string name="email">Email</string>
+    <string-array name="hospitals">
+        <item>Select Hospital</item>
+        <item>AHEPA University Hospital</item>
+        <item>Evaggelismos Hospital</item>
+        <item>Laiko Hospital of Athens</item>
+        <item>Tzaneio Hospital of Piraeus</item>
+    </string-array>
+    <string-array name="doctors">
+        <item>Select Doctor</item>
+        <item>Dentist</item>
+        <item>Microbiologist</item>
+        <item>Optician</item>
+        <item>Physician</item>
+    </string-array>
+    <string-array name="dates">
+        <item>Select Date</item>
+        <item>30/11 11:30</item>
+        <item>02/12 11:30</item>
+        <item>04/12 13:00</item>
+        <item>04/12 13:30</item>
+    </string-array>
+</resources>

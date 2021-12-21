@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.homescreen.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.homescreen.Login"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/activity_login" />
+
+    <fragment
+        android:id="@+id/nav_changePassword"
+        android:name="com.example.homescreen.ui.changepassword.ChangePasswordFragment"
+        android:label="@string/menu_changepassword"
+        tools:layout="@layout/fragment_change_password" />
+
+    <fragment
+        android:id="@+id/nav_deleteAccount"
+        android:name="com.example.homescreen.ui.deleteaccount.DeleteAccountFragment"
+        android:label="@string/menu_deleteaccount"
+        tools:layout="@layout/fragment_delete_account" />
+
+    <fragment
+        android:id="@+id/nav_changeLanguage"
+        android:name="com.example.homescreen.ui.changelanguage.ChangeLanguageFragment"
+        android:label="@string/menu_changelanguage"
+        tools:layout="@layout/fragment_change_language" />
+
+    <fragment
+        android:id="@+id/nav_changeTheme"
+        android:name="com.example.homescreen.ui.changetheme.ChangeThemeFragment"
+        android:label="@string/menu_changetheme"
+        tools:layout="@layout/fragment_change_theme" />
+</navigation>

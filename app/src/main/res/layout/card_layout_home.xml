@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_home"
+    android:layout_marginTop="50dp"
+    app:cardBackgroundColor="#c3fdff"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp"
+    app:contentPaddingTop="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/Welcome"
+            android:textColor="#00600F"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center|center_vertical"
+            android:text="text"
+            app:layout_constraintLeft_toRightOf="@id/welcome"
+            android:layout_marginStart="16dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/item_AMKA"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/AMKA"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/item_name"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/item_email"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/email"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/item_AMKA"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/item_address"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/address"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/item_email"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/item_blood_type"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/blood_type"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/item_address"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/item_amka_db"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toRightOf="@id/item_AMKA"
+            app:layout_constraintTop_toBottomOf="@id/item_name"
+            android:layout_marginStart="16dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/item_blood_type_db"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toRightOf="@id/item_blood_type"
+            app:layout_constraintTop_toBottomOf="@id/item_amka_db"
+            android:layout_marginStart="16dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/item_address_db"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toRightOf="@id/item_address"
+            app:layout_constraintTop_toBottomOf="@id/item_blood_type_db"
+            android:layout_marginStart="16dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/item_phone_db"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toRightOf="@id/item_blood_type"
+            app:layout_constraintTop_toBottomOf="@id/item_address_db"
+            android:layout_marginStart="16dp"
+            android:textSize="15sp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

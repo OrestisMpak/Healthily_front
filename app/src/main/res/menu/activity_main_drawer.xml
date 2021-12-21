@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/Profile">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/Logout"/>
+
+                <item
+                    android:id="@+id/nav_changePassword"
+                    android:icon="@drawable/ic_baseline_lock_24"
+                    android:title="@string/Change_Password"/>
+
+                <item
+                    android:id="@+id/nav_deleteAccount"
+                    android:icon="@drawable/ic_delete_account"
+                    android:title="@string/Delete_Account"/>
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/Settings">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_changeLanguage"
+                    android:icon="@drawable/ic_change_language"
+                    android:title="@string/Change_Lanquage"/>
+
+                <item
+                    android:id="@+id/nav_changeTheme"
+                    android:icon="@drawable/ic_change_theme"
+                    android:title="@string/Change_Theme"/>
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/Communicate">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="@string/Share"/>
+
+            </menu>
+
+        </item>
+    </group>
+</menu>
